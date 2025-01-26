@@ -66,10 +66,19 @@
     font-weight: 500;
     font-size: 20px;
 }
-
-.bars{
+.display-none{
     display: none;
 }
+.hr-line{
+    border: 1px solid orange;
+    display: none;
+}
+
+/* vision-section */
+
+
+
+
 /* small devices */
 
 @media screen and (max-width: 576px) {
@@ -89,5 +98,9 @@
     .navbar{
         margin: 10px 15px;
     }
+    .hr-line{
+        display: block;
+    }
+    
    
 }
