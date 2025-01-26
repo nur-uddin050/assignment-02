@@ -19,6 +19,15 @@
     padding: 15px 60px;
     border-radius: 12px;
 }
+.btn-secondary{
+    background-color: #111111;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 12px;
+}
 .text-white{
     color: #FFFFFF;
 }
@@ -76,6 +85,20 @@
 
 /* vision-section */
 
+.vision-section{
+    display: flex;
+    gap: 100px;
+    margin: 0 180px;
+}
+.vision-title{
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 100px;
+}
+.vision-description{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
 
 
 
