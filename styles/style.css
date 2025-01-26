@@ -14,7 +14,7 @@
 .btn-primary{
     background-color: #FEA301;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     border: none;
     padding: 15px 60px;
     border-radius: 12px;
@@ -23,7 +23,7 @@
     background-color: #111111;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     border: none;
     padding: 15px 60px;
     border-radius: 12px;
@@ -54,7 +54,7 @@
 
 .school{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
 }
 .navbar{
    
@@ -73,7 +73,7 @@
 .nav-link{
     text-decoration: none;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .display-none{
     display: none;
@@ -92,19 +92,22 @@
 }
 .vision-title{
     font-weight: 700;
-    font-size: 55px;
+    font-size: 3.5rem;
     margin-top: 100px;
 }
 .vision-description{
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 50px;
 }
+
 
 
 
 /* small devices */
 
 @media screen and (max-width: 576px) {
+
+    /* nav-section */
 
     .mobile-hide{
         display: none;
@@ -125,5 +128,27 @@
         display: block;
     }
     
+    /* vision-section */
+
+    .vision-section{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin: 20px 15px;
+    }
+    .vision-title{
+        font-weight: 700;
+        font-size: 2rem;
+        margin: 0 15px;
+    }
+    ..vision-description{
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    .vision-img{
+        width: 90%;
+    }
+
    
 }
