@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    background-color: #FEA301;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 12px;
+}
+.text-white{
+    color: #FFFFFF;
+}
+.text-orange{
+    color: #FEA301;
+}
+.text-skyblue{
+    color: #01ACFD;
+}
+.text-green{
+    color: #05D4DF;
+}
+.text-blue{
+    color: #5D58EF;
+}
+.text-black{
+    color: #111111;
+}
+
+
+/* header styles */
+
+/* navbar related styles */
+
+.school{
+    font-weight: 700;
+    font-size: 32px;
+}
+.navbar{
+   
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 180px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 35px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.bars{
+    display: none;
+}
+/* small devices */
+
+@media screen and (max-width: 576px) {
+
+    .mobile-hide{
+        display: none;
+    }
+    .img-logo{
+      
+    }
+    .bars{
+        display: block;
+        height: 100%;
+        width: 50px;
+        
+    }
+    .navbar{
+        margin: 10px 15px;
+    }
+   
+}
