@@ -269,6 +269,31 @@ h3{
     margin-bottom: 60px;
 }
 
+/* footer-section */
+
+.footer-section{
+    /* margin: 0 180px; */
+    /* align-items: center;
+    justify-content: space-between; */
+    background-color: #01ACFD;
+    padding: 120px 150px 180px 180px;
+}
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .footer-school{
+    justify-content: center;
+    align-items: center;
+} */
+
+.footer-item{
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+}
 
 
 
@@ -280,9 +305,6 @@ h3{
 
     .mobile-hide{
         display: none;
-    }
-    .img-logo{
-      
     }
     .bars{
         display: block;
