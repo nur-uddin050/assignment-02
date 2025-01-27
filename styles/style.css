@@ -39,6 +39,57 @@ h3{
     border: none;
     background-color: #FFFFFF;
 }
+.btn-fourth{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+    border-radius: 3rem;
+    padding: 10px 15px;
+    border: none;
+}
+.btn-fourth{
+    position: relative;
+}
+.btn-1{
+    top: -25px;
+    left: 20px;
+}
+.btn-2{
+    top: -25px;
+    left: 20px;
+}
+.btn-3{
+    top: -25px;
+    left: 20px;
+}
+.btn-4{
+    top: -25px;
+    left: 20px;
+}
+.btn-5{
+    top: -25px;
+    left: 20px;
+}
+/* background-color */
+
+.bg-green{
+    background-color: #05D4DF;
+}
+.bg-skyblue{
+    background-color: #01ACFD;
+}
+.bg-orange{
+    background-color: #FEA301;
+}
+.bg-blue{
+    background-color: #5D58EF;
+}
+.bg-nevyblue{
+    background-color: #5D58F0;
+}
+
+/* text-color */
+
 .text-white{
     color: #FFFFFF;
 }
@@ -167,6 +218,55 @@ h3{
 .angle{
     width: 60px;
     height: 60px;
+}
+
+/* stories-section */
+
+.stories-section{
+    margin: 0 180px;
+    background-image: linear-gradient(#FFFFFF, #e3d4b8);
+    background-image: url(./bg.png);
+}
+.stories-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.stories-description{
+    display: flex;
+    gap: 20px;
+}
+.story-img{
+    border-radius: 1rem;
+    width: 100%;
+}
+.card-1{
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+}
+
+.card2-5{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card2-5 > div{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+}
+.card-padding{
+    padding: 40px;
+}
+.about-img{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.view-all-parant{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 
