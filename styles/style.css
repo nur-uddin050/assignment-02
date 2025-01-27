@@ -11,6 +11,11 @@
 .display-flex{
     display: flex;
 }
+h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #202020;
+}
 .btn-primary{
     background-color: #FEA301;
     font-weight: 600;
@@ -27,6 +32,12 @@
     border: none;
     padding: 15px 60px;
     border-radius: 12px;
+}
+.btn-third{
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    background-color: #FFFFFF;
 }
 .text-white{
     color: #FFFFFF;
@@ -100,6 +111,63 @@
     margin-bottom: 50px;
 }
 
+/* curriculum-section */
+
+.curriculum-section{
+    margin: 0 180px;
+    background-image: url(./bg.png);
+}
+.curriculum-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.curriculum-description{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+.curriculum-year{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #808080;
+}
+.kinder{ 
+    border-radius: 1.2rem;
+    padding: 50px 30px;
+}
+.elementary{
+    border-radius: 1.2rem;
+    padding: 50px 30px;
+}
+.middle{
+    border-radius: 1.2rem;
+    padding: 50px 30px;
+}
+
+#kinder{
+    background: linear-gradient(#DEF5FF, #FFFFFF);
+    
+}
+#elementary{
+    background: linear-gradient(#FFF4DC, #FFFFFF)
+}
+#middle{
+    background: linear-gradient(#F2E8FF, #FFFFFF);
+}
+
+.angle-div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.angle{
+    width: 60px;
+    height: 60px;
+}
+
 
 
 
@@ -142,7 +210,7 @@
         font-size: 2rem;
         margin: 0 15px;
     }
-    ..vision-description{
+    .vision-description{
         font-size: 1rem;
         margin-bottom: 50px;
     }
