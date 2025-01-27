@@ -133,28 +133,29 @@ h3{
     font-size: 1rem;
     color: #808080;
 }
-.kinder{ 
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 50px 50px;
     border-radius: 1.2rem;
-    padding: 50px 30px;
-}
-.elementary{
-    border-radius: 1.2rem;
-    padding: 50px 30px;
-}
-.middle{
-    border-radius: 1.2rem;
-    padding: 50px 30px;
+    
 }
 
 #kinder{
     background: linear-gradient(#DEF5FF, #FFFFFF);
-    
+    box-shadow: 1px 1px 1px 1px #DEF5FF;
 }
 #elementary{
-    background: linear-gradient(#FFF4DC, #FFFFFF)
+    background: linear-gradient(#FFF4DC, #FFFFFF);
+    box-shadow: 1px 1px 1px 1px #FFF4DC;
 }
 #middle{
     background: linear-gradient(#F2E8FF, #FFFFFF);
+    box-shadow: 1px 1px 1px 1px #F2E8FF;
 }
 
 .angle-div{
@@ -217,6 +218,16 @@ h3{
     .vision-img{
         width: 90%;
     }
+
+    /* curriculum-section */
+
+    .curriculum-section{
+        margin: 0;
+    }
+    .curriculum-description{
+        flex-direction: column;   
+    }
+    
 
    
 }
