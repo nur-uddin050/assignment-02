@@ -327,7 +327,18 @@ h3{
     .curriculum-description{
         flex-direction: column;   
     }
-    
+
+    /* stories-section */
+
+    .stories-section{
+        margin: 0;
+    }
+    .card-padding{
+        padding: 5px;
+    }
+    .stories-description{
+        margin-top: 40px;
+    }
 
    
 }
