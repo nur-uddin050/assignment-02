@@ -224,8 +224,9 @@ h3{
 
 .stories-section{
     margin: 0 180px;
-    background-image: linear-gradient(#FFFFFF, #e3d4b8);
-    background-image: url(./bg.png);
+    background: linear-gradient(5deg, rgba(254, 163, 1, 0.3)), url(./bg.png);
+    background-size: cover;
+    background-position: center;
 }
 .stories-title{
     display: flex;
@@ -276,12 +277,12 @@ h3{
     /* align-items: center;
     justify-content: space-between; */
     background-color: #01ACFD;
-    padding: 120px 150px 180px 180px;
+    padding: 150px 200px;
 }
 .footer-title{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 /* .footer-school{
     justify-content: center;
@@ -290,9 +291,25 @@ h3{
 
 .footer-item{
     list-style: none;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.25rem;
 }
 .footer-link{
     text-decoration: none;
+    margin: 0;
+}
+.footer-school{
+
+}
+.footer-school ul{
+    padding: 0;
+    margin: 0;
+}
+
+.touch-icon{
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -360,6 +377,13 @@ h3{
     }
     .stories-description{
         margin-top: 40px;
+    }
+
+    .footer-section{
+        padding: 4rem 2rem;
+    }
+    .footer-title{
+        flex-direction: column;
     }
 
    
