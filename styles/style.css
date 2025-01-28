@@ -372,9 +372,12 @@ h3{
     }
 
     /* stories-section */
-
+    .stories{
+        padding: 0;
+    }
     .stories-section{
         margin: 0;
+        border: 2px solid red;
     }
     .card-padding{
         padding: 5px;
@@ -390,6 +393,7 @@ h3{
     /* footer-section */
 
     .footer-section{
+        border: 2px solid red;
         padding: 4rem 2rem;
     }
     .footer-title{
